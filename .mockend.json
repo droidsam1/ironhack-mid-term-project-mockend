@@ -5,7 +5,13 @@
     },
     "title": {
       "loremWords": {
-        "minLength": 5,
+        "minLength": 2,
+        "maxLength": 5
+      }
+    },
+    "description": {
+      "loremWords": {
+        "minLength": 6,
         "maxLength": 20
       }
     },
