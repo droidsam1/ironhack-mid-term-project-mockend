@@ -11,14 +11,14 @@
     },
     "description": {
       "loremWords": {
-        "minLength": 10,
-        "maxLength": 80
+        "minLength": 8,
+        "maxLength": 20
       }
     },
     "body": {
       "loremParagraphs": {
-        "minLength": 400,
-        "maxLength": 1000
+        "minLength": 800,
+        "maxLength": 1500
       }
     },
     "tag": {
