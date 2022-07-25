@@ -1,5 +1,6 @@
 {
   "Post": {
+    "id": { "int": { "min": 0, "max": 100 } },
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{3}/588"
     },
