@@ -11,8 +11,8 @@
     },
     "description": {
       "loremWords": {
-        "minLength": 6,
-        "maxLength": 20
+        "minLength": 10,
+        "maxLength": 80
       }
     },
     "body": {
