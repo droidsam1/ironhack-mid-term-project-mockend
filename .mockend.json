@@ -1,4 +1,14 @@
 {
+  "Subscription":{
+  	"email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+	"subscribed": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2022-07-26T23:59:59Z"
+      }
+    }
+  },
+
   "Question": {
 	"fullName": { "regexp": "[A-Z][a-z]{5,10}" },
 	"email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
@@ -7,6 +17,12 @@
       "loremWords": {
         "minLength": 8,
         "maxLength": 20
+      }
+    },
+	"created": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+		"max": "2022-07-26T23:59:59Z"
       }
     }
   },
@@ -46,7 +62,7 @@
     "createdAt": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
+		"max": "2022-07-26T23:59:59Z"
       }
     }
   }
