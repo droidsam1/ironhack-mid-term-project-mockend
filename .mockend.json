@@ -1,4 +1,15 @@
 {
+  "Questions": {
+	"fullName": { "regexp": "[A-Z][a-z]{5,10}" },
+	"email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+	"phone": { "regexp": "6[0-9]{8}" },
+    "message": {
+      "loremWords": {
+        "minLength": 8,
+        "maxLength": 20
+      }
+    },
+  },
   "Post": {
     "id": { "int": { "min": 0, "max": 100 } },
     "cover": {
