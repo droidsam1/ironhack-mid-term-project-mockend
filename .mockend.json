@@ -31,6 +31,12 @@
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{3}/400"
     },
+    "cover-description": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 15
+      }
+    },
     "title": {
       "loremWords": {
         "minLength": 4,
