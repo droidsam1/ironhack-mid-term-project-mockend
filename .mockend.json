@@ -36,10 +36,9 @@
 		"https://picsum.photos/id/100/2500/1656",
 		"https://picsum.photos/id/1000/5626/3635",
 		"https://picsum.photos/id/1001/5616/3744",
-		 "https://picsum.photos/id/1002/4312/2868",    
+		 "https://picsum.photos/id/1002/4312/2868"   
 	    ]
     },
-	  
     "coverDescription": {
       "loremWords": {
         "minLength": 5,
